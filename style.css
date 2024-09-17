@@ -2,10 +2,19 @@ h1{
     color: dodgerblue;
 }
 
+.padre{
+    margin: 5%;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    
+}
+
 .card1{
+    margin-right: 200px;
     background-color: salmon;
 }
 
 .card2{
+    margin-left: 600px;
     background-color: aqua;
 }
