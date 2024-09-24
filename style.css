@@ -1,34 +1,62 @@
 h1{
     color: dodgerblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .padre{
-    margin: 5%;
-    padding: 20px 20px 20px 20px;
+   
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    height: 80vh;
     
     
 }
 
 .card1{
     margin-right: 200px;
-    
-    height: 300px;
-    width: 300px;
+    height: 65vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    padding: 30px;
+    border-radius: 23px;
+    gap: 1rem;
+    transition: .5s ease;
+    box-shadow: 17px 20px 12px #aaa;
 }
+
+.card1:hover, .card2:hover{
+    transform: scale(1.1);
+}
+
+
 
 .card2{
-    margin-left: 600px;
-    
-    color: brown;
-    box-shadow: 20px;
-    
-    height: 300px;
-    width: 300px;
+    margin-right: 200px;
+    height: 65vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    padding: 30px;
+    border-radius: 23px;
+    gap: 1rem;
+    transition: .5s ease;
+    box-shadow: 17px 20px 12px #aaa;
 }
 
-span{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12vh; 
-    color: salmon;
+img{
+    height: 70vh;
 }
+
