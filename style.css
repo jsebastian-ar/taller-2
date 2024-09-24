@@ -7,14 +7,28 @@ h1{
     padding: 20px 20px 20px 20px;
     display: flex;
     
+    
 }
 
 .card1{
     margin-right: 200px;
-    background-color: salmon;
+    
+    height: 300px;
+    width: 300px;
 }
 
 .card2{
     margin-left: 600px;
-    background-color: aqua;
+    
+    color: brown;
+    box-shadow: 20px;
+    
+    height: 300px;
+    width: 300px;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12vh; 
+    color: salmon;
 }
